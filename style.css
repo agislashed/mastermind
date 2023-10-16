@@ -16,8 +16,8 @@
 /* Import de la police mastermind */
 
 @font-face {
-  font-family: "Coluna";
-  src: url("./fonts/Coluna.otf") format("otf");
+  font-family: 'mastermind';
+  src: url('./fonts/Coluna.otf');
 }
 
 a {
@@ -30,6 +30,9 @@ a:hover {
 }
 
 body {
+  background-image: url('./background/fond_mastermind.png');
+  background-size: cover; /* Optionnel : ajuste la taille de l'image pour remplir tout l'écran */
+  background-repeat: no-repeat; /* Optionnel : empêche la répétition de l'image */
   margin: 0;
   display: flex;
   place-items: center;
@@ -40,6 +43,21 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.titre {
+  font-family: "mastermind";
+}
+
+.container {
+  width: 80%;
+  max-width: 800px; /* Largeur maximale de la container */
+  margin: 0 auto; /* Centre la container horizontalement */
+  background-color: #fff; /* Couleur de fond de la container */
+  border: 1px solid #ddd; /* Bordure autour de la container */
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px; /* Espace au-dessus de la container */
 }
 
 #app {
