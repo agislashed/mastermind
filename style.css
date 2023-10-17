@@ -26,7 +26,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #1577dc;
 }
 
 body {
@@ -38,6 +38,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
 }
 
 h1 {
@@ -49,13 +50,15 @@ h1 {
 
 .titre {
   font-family: "mastermind";
+  font-size: 5.2em;
+  margin-bottom: 0;
 }
 
 .container {
   width: 80%;
   max-width: 800px; /* Largeur maximale de la container */
   margin: 0 auto; /* Centre la container horizontalement */
-  background-color: #fff; /* Couleur de fond de la container */
+  background-color:black; /* Couleur de fond de la container */
   border: 1px solid #ddd; /* Bordure autour de la container */
   padding: 20px;
   text-align: center;
@@ -67,13 +70,15 @@ h1 {
 }
 
 .button {
-  display: inline-block;
+  display: block; /* Les boutons s'affichent les uns sous les autres */
   padding: 10px 20px;
-  background-color: #0078d4; /* Couleur de fond du bouton */
-  color: #fff; /* Couleur du texte du bouton */
+  background-color: #ffffff; /* Couleur de fond du bouton */
+  color: #000; /* Couleur du texte du bouton */
   text-decoration: none;
   border-radius: 5px; /* Coins arrondis */
-  margin: 10px; /* Espace entre les boutons */
+  margin: 10px auto; /* Centre les boutons horizontalement et ajoute de l'espace vertical entre les boutons */
+  width: 150px; /* Largeur des boutons */
+  text-align: center; /* Centre le texte à l'intérieur du bouton */
 }
 
 #app {
@@ -123,15 +128,24 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #030B3A;
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+/* Media Queries pour une mise en page responsive */
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+      border-radius: 0; /* Supprimez la bordure arrondie pour les écrans plus petits si nécessaire */
   }
 }
