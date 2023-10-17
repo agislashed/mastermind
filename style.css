@@ -47,10 +47,10 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
 }
 
 /* Mon code css */
@@ -65,11 +65,11 @@ h1 {
   width: 80%;
   max-width: 800px; /* Largeur maximale de la container */
   margin: 0 auto; /* Centre la container horizontalement */
-  background-color:black; /* Couleur de fond de la container */
-  border: 1px solid #ddd; /* Bordure autour de la container */
+  /* border: 1px solid #ddd; Bordure autour de la container */
   padding: 20px;
   text-align: center;
   margin-top: 50px; /* Espace au-dessus de la container */
+  z-index: 1;
 }
 
 .button-container {
