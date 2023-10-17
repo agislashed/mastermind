@@ -45,6 +45,8 @@ h1 {
   line-height: 1.1;
 }
 
+/* Mon code css */
+
 .titre {
   font-family: "mastermind";
 }
@@ -58,6 +60,20 @@ h1 {
   padding: 20px;
   text-align: center;
   margin-top: 50px; /* Espace au-dessus de la container */
+}
+
+.button-container {
+  margin-top: 20px; /* Espace entre le titre et les boutons */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078d4; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  text-decoration: none;
+  border-radius: 5px; /* Coins arrondis */
+  margin: 10px; /* Espace entre les boutons */
 }
 
 #app {
