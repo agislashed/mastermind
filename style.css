@@ -46,6 +46,13 @@ h1 {
   line-height: 1.1;
 }
 
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 /* Mon code css */
 
 .titre {
@@ -81,11 +88,22 @@ h1 {
   text-align: center; /* Centre le texte à l'intérieur du bouton */
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* code pour le logo */
+
+.logo-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  transition: transform 0.3s; /* Animation de rotation */
+}
+
+/* Lorsque le logo est cliqué, effectuez la rotation de 360 degrés */
+.logo.clicked {
+  transform: rotate(360deg);
 }
 
 .logo {
