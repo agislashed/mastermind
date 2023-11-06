@@ -62,11 +62,12 @@ const resize = () => {
 window.addEventListener('resize', resize);
 resize();
 
+// lumiere
 
 let spotLight = new THREE.SpotLight( 0xffffff, 400 );
 spotLight.position.set( 0, 17, 2.5 );
 spotLight.penumbra = 1;
-spotLight.decay = 2;
+spotLight.decay = 1;
 spotLight.distance = 0;
 
 spotLight.castShadow = true;

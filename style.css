@@ -20,6 +20,8 @@
   src: url('./fonts/Coluna.otf');
 }
 
+ /* Page index */
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -57,8 +59,10 @@ h1 {
 
 .titre {
   font-family: "mastermind";
+  color: white;
   font-size: 5.2em;
   margin-bottom: 0;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .container {
@@ -166,4 +170,84 @@ button:focus-visible {
       width: 100%;
       border-radius: 0; /* Supprimez la bordure arrondie pour les écrans plus petits si nécessaire */
   }
+}
+
+
+ 
+/* Page choix avatar */
+
+.avatar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  margin: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.avatar:hover {
+  border-color: #030B3A;
+  box-shadow: 0 0 10px #030B3A;
+}
+
+.username-box {
+  margin: 20px;
+  
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 18px;
+  
+}
+
+.username-box input[type="text"]:hover {
+  border: 2px solid #030B3A;
+}
+
+
+.start-button {
+  margin-top: 20px;
+}
+
+.start-button button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: white;
+  box-shadow: 0 0 10px white;
+}
+
+.start {
+
+ 
+  font-size: 20px;
+
+}
+
+  /* Media query pour les écrans plus petits (par exemple, les smartphones) */
+  @media (max-width: 768px) {
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+
+    .username-box input[type="text"] {
+        width: 80%;
+        max-width: 300px;
+    }
 }
