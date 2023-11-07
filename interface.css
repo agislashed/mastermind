@@ -37,11 +37,26 @@ body {
   background-repeat: no-repeat; /* Optionnel : empêche la répétition de l'image */
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden; /* Empêche le défilement horizontal */
+  height: 100vh;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 
 h1 {
   font-size: 3.2em;
@@ -65,240 +80,6 @@ h1 {
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
-.container {
-  width: 80%;
-  max-width: 800px; /* Largeur maximale de la container */
-  margin: 0 auto; /* Centre la container horizontalement */
-  /* border: 1px solid #ddd; Bordure autour de la container */
-  padding: 20px;
-  text-align: center;
-  margin-top: 50px; /* Espace au-dessus de la container */
-  z-index: 1;
-}
-
-.button-container {
-  margin-top: 20px; /* Espace entre le titre et les boutons */
-}
-
-.button {
-  display: block; /* Les boutons s'affichent les uns sous les autres */
-  padding: 10px 20px;
-  background-color: #ffffff; /* Couleur de fond du bouton */
-  color: #000; /* Couleur du texte du bouton */
-  text-decoration: none;
-  border-radius: 5px; /* Coins arrondis */
-  margin: 10px auto; /* Centre les boutons horizontalement et ajoute de l'espace vertical entre les boutons */
-  width: 150px; /* Largeur des boutons */
-  text-align: center; /* Centre le texte à l'intérieur du bouton */
-  font-size: 1.5em;
-}
-
-/* code pour le logo */
-
-.logo-container {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  cursor: pointer;
-}
-
-.logo {
-  transition: transform 0.3s; /* Animation de rotation */
-}
-
-/* Lorsque le logo est cliqué, effectuez la rotation de 360 degrés */
-.logo.clicked {
-  transform: rotate(360deg);
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #030B3A;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-/* Media Queries pour une mise en page responsive */
-@media (max-width: 768px) {
-  .container {
-      width: 100%;
-      border-radius: 0; /* Supprimez la bordure arrondie pour les écrans plus petits si nécessaire */
-  }
-}
-
-
- 
-/* Page choix avatar */
-
-.avatar-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.avatar {
-  width: 200px;
-  height: 200px;
-  border: 2px solid #ccc;
-  margin: 10px;
-  transition: border-color 0.3s, box-shadow 0.3s;
-  cursor: pointer;
-}
-
-.avatar:hover {
-  border-color: #030B3A;
-  box-shadow: 0 0 10px #030B3A;
-}
-
-.username-box {
-  margin: 20px;
-  
-}
-
-input[type="text"] {
-  padding: 10px;
-  width: 300px;
-  font-size: 18px;
-  
-}
-
-.username-box input[type="text"]:hover {
-  border: 2px solid #030B3A;
-}
-
-
-.start-button {
-  margin-top: 20px;
-}
-
-.start-button button {
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.button:hover {
-  border-color: white;
-  box-shadow: 0 0 10px white;
-}
-.avatar-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.avatar {
-  width: 200px;
-  height: 200px;
-  border: 2px solid #ccc;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.avatar.selected {
-  border-color: #030B3A;
-  box-shadow: 0 0 10px #030B3A;
-}
-
-.username-box {
-  margin: 20px;
-}
-
-input[type="text"] {
-  padding: 10px;
-  width: 300px;
-  font-size: 18px;
-}
-
-.start-button {
-  margin-top: 20px;
-}
-
-.button:hover {
-  border-color: white;
-  box-shadow: 0 0 10px white;
-}
-
-.start {
-  font-size: 20px;
-}
-
-  /* Media query pour les écrans plus petits (par exemple, les smartphones) */
-  @media (max-width: 768px) {
-    .avatar {
-        width: 150px;
-        height: 150px;
-    }
-
-    .username-box input[type="text"] {
-        width: 80%;
-        max-width: 300px;
-    }
-}
-
-/* Page theme */
-
-.theme {
-  width: 500px;
-  font-size: 1.5em;
-  color: #ccc;
-  background-color: #000;
-}
-
-
-/* Page interface */
 
 .countdown {
   font-size: 3em;
@@ -319,12 +100,16 @@ input[type="text"] {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 90%; /* Ajustez la largeur de l'interface de jeu */
+  max-width: 800px; /* Ajustez la largeur maximale si nécessaire */
+  position: relative; /* Ajoutez une position relative pour positionner le chrono */
+
 }
 
 .question-box {
   background-color: black;
   border: 4px solid white;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
   border-radius: 10px;
 }
@@ -332,6 +117,9 @@ input[type="text"] {
 .timer {
   font-size: 2em;
   color: white;
+  position: absolute;
+  top: 20px; /* Positionnez le chrono en haut à droite */
+  right: 20px; /* Positionnez le chrono en haut à droite */
 }
 
 .question {
@@ -352,9 +140,10 @@ input[type="text"] {
 .score-box {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start; /* Ajustez l'alignement vertical */
   margin-top: 20px;
 }
+
 
 .avatar-int,
 .presentateur {
@@ -392,4 +181,3 @@ input[type="text"] {
 .score-circle {
   background: transparent;
 }
-
