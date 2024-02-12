@@ -1,0 +1,666 @@
+[
+
+    {
+      "question": "Quel langage de programmation web permet de réaliser des pages web dynamiques grâce à des bases de données ?",
+      "réponse": [
+        "PHP",
+        "Hypertexte Processor"
+      ]
+    },
+
+    {
+      "question": "Quel est le langage informatique qui doit être utilisé pour communiquer avec une base de donnée en PHP ?",
+      "réponse": [
+        "SQL",
+        "Structured Query Language"
+      ]
+    },
+
+    {
+      "question": "Que génère PHP durant le chargement d'une page web ? ",
+      "réponse": [
+        "Requêtes HTTP",
+        "Requete http",
+        "une requete http",
+        "des requetes http"
+      ]
+    },
+
+    {
+      "question": "En HTML, quel attribut d'image permet d'ajouter une description à cette dernière ?",
+      "réponse": [
+        "alt",
+        "ALT"
+      ]
+    },
+
+    {
+      "question": "Quel logiciel de la suite Adobe permet de faire du montage vidéo ?",
+      "réponse": [
+        "Premiere Pro",
+        "Adobe Premiere Pro",
+        "Premiere",
+        "Adobe Premiere"
+      ]
+    },
+
+    {
+      "question": "En montage vidéo, comment s'appelle la transition qui fait apparaitre une image progressivement devant l'autre ? ",
+      "réponse": [
+        "fondu",
+        "transition en fondu",
+        "une transition en fondu"
+      ]
+    },
+
+    {
+      "question": "Quelle fonctionnalité de la suite Adobe permet d'importer des compositions entre plusieurs logiciels ?",
+      "réponse": [
+        "Adobe dynamic link",
+        "dynamic link"
+      ]
+    },
+
+    {
+      "question": "Quel logiciel de la suite Adobe est particulièrement adapté à la création graphique vectorielle ?",
+      "réponse": [
+        "Illustrator",
+        "Adobe Illustrator"
+      ]
+    },
+
+    {
+      "question": "Quel organisme a pour but de standariser et promouvoir la comptabilité des technologies du World Wide Web ?",
+      "réponse": [
+        "W3C",
+        "Le W3C",
+        "world wide web consortium",
+        "Le world wide web consortium"
+      ]
+    },
+
+    {
+      "question": "En PHP et JS, quelle entité permet de stocker des valeurs ?",
+      "réponse": [
+        "une variable",
+        "variable",
+        "variables",
+        "des variables"
+      ]
+    },
+
+    {
+      "question": "Quelle est l'objet crée en 1945 dont la fonctionnalité première était de calculer rapidement ? ",
+      "réponse": [
+        "un ordinateur",
+        "ordinateur",
+        "ordi"
+      ]
+    },
+
+    {
+      "question": "Quel est l'adjectif utilisé pour les images ou de formes qui ne perdent pas en qualité lorsqu'elles sont rétrécies ? ",
+      "réponse": [
+        "vectoriel",
+        "vectorielles",
+        "images vectorielles",
+        "image vectorielle"
+      ]
+    },
+
+    {
+      "question": "Quel outil d'Adobe Illustrator permet de créer des formes vectorielles ?",
+      "réponse": [
+        "plume",
+        "outil plume",
+        "l'outil plume"
+      ]
+    },
+
+    {
+      "question": "Quel raccourci clavier d'Adobe Illustrator permet de rapidement sélectionner le sélecteur de couleur ?",
+      "réponse": [
+        "i",
+        "touche i"
+      ]
+    },
+
+    {
+      "question": "Quel raccourci clavier d'Adobe Photoshop permet de déplacer un élément sur un nouveau calque ?",
+      "réponse": [
+        "ctrl j",
+        "controle j"
+      ]
+    },
+
+    {
+      "question": "Quel outil d'Adobe Photoshop permet de flouter des éléments et de créer de la profondeur dans une image ?",
+      "réponse": [
+        "gaussian blur",
+        "flou gaussien",
+        "le flou gaussien"
+      ]
+    },
+
+    {
+      "question": "Quel raccourci clavier d'Adobe Photoshop permet de remplir automatiquement une partie d'une image sélectionnée ?",
+      "réponse": [
+        "shift f5",
+        "shift et f5"
+      ]
+    },
+
+    {
+      "question": "Quel mode colorimétrique doit être utilisé pour l'impression ?",
+      "réponse": [
+        "CMJN",
+        "CMYK"
+      ]
+    },
+
+    {
+      "question": "Quel est le sujet principal de la célèbre expérience de Stanley Milgram en 1963 ?",
+      "réponse": [
+        "physiologie",
+        "la physiologie"
+      ]
+    },
+
+    {
+      "question": "Quel logiciel de la suite Adobe permet de créer des maquettes de site web ou d'application ?",
+      "réponse": [
+        "Adobe XD",
+        "XD"
+      ]
+    },
+
+    {
+      "question": "Quel outil d'Adobe Photoshop permet de détourer une image manuellement ?",
+      "réponse": [
+        "plume",
+        "l'outil plume",
+        "outil plume",
+        "la plume"
+      ]
+    },
+
+    {
+      "question": "Quelle couche chromatique permet d'exporter un projet After Effect avec un fond transparent ?",
+      "réponse": [
+        "alpha",
+        "couvhe alpha", 
+        "la couche alpha"
+      ]
+    },
+
+    {
+      "question": "Dans Adobe Premiere Pro, quel panneau permet de gérer la couleur de la vidéo ?",
+      "réponse": [
+        "Color Lumetri",
+        "couleur lumetrie",
+        "lumetri couleur",
+        "le panneau couleur lumetri",
+        "panneau couleur lumetri"
+      ]
+    },
+
+    {
+      "question": "Dans Adobe After Effects, quelle technique permet de faire bouger un élément selon un mouvement dans une vidéo ?",
+      "réponse": [
+        "tracking 3D",
+        "le tracking 3D"
+      ]
+    },
+
+    {
+      "question": "Dans Adobe After Effect, quelle transformation de base permet de modifier la taille d'un élément ?",
+      "réponse": [
+        "scale",
+        "s",
+        "échelle",
+        "l'échelle"
+      ]
+    },
+
+    {
+      "question": "Quel est le nombre maximal recommandé de typographies différentes à utiliser sur une production infographique ?",
+      "réponse": [
+        "3",
+        "trois"
+      ]
+    },
+
+    {
+      "question": "Quelle expression sur Adobe After Effect permet aux transformations de se répéter ?",
+      "réponse": [
+        "loopOut()",
+        "loopOut"
+      ]
+    },
+
+    {
+      "question": "Qui est l'inventeur du mouvement artistique Bauhaus ?",
+      "réponse": [
+        "Walter Gropius",
+        "Gropius Walter",
+        "Gropius"
+      ]
+    },
+
+    {
+      "question": "Quel designer a réalisé le poster et l'introduction du film Vertigo d'Alfred Hitchcock ?",
+      "réponse": [
+        "Saul Bass",
+        "Bass Saul",
+        "Bass"
+      ]
+    },
+
+    {
+      "question": "Quel procédé d'art visuel étudie l'utilisation et la composition des caractères écrits ? ",
+      "réponse": [
+        "Typographie",
+        "la typographie"
+      ]
+    },
+
+    {
+      "question": "Quelle suite logicielle de graphisme permet de créer une multitude de supports numériques différents ?",
+      "réponse": [
+        "Adobe",
+        "suite adobe",
+        "la suite adobe",
+        "Adobe Creative Cloud"
+      ]
+    },
+
+    {
+      "question": "Quelle discipline consiste à créer, utiliser, et choisir des éléments graphiques pour une réalisation visuelle ?",
+      "réponse": [
+        "design graphique",
+        "le design graphique",
+        "graphic design"
+      ]
+    },
+
+    {
+      "question": "Quel élément sur une caméra ou appareil photo permet de réduire la quantité de lumière ?",
+      "réponse": [
+        "Le diaphragme ",
+        "diaphragme",
+        "iris",
+        "l'iris"
+      ]
+    },
+
+    {
+      "question": "Comment s'appelle la méthode de référencement naturel des sites web ?",
+      "réponse": [
+        "SEO",
+        "le SEO",
+        "Search Engine Optimization"
+      ]
+    },
+
+    {
+      "question": "Quel caractère devrait être utilisé pour séparer les mots dans une URL de site ?",
+      "réponse": [
+        "un tiret -",
+        "-",
+        "tiret",
+        "un tiret",
+        "tiret du 6"
+      ]
+    },
+
+    {
+      "question": "Quelle technique audiovisuelle est souvent utilisée pour filmer une discussion entre deux personnages ? ",
+      "réponse": [
+        "Le champ-contrechamp",
+        "champ-contrechamp",
+        "le champ contrechamp",
+        "champ contrechamp",
+        "le champ contre champ",
+        "champ contre champ"
+      ]
+    },
+
+    {
+      "question": "Quel est le moteur de recherche le plus connu ?",
+      "réponse": [
+        "Google",
+        "google"
+      ]
+    },
+
+    {
+      "question": "Quel numéro d'erreur s'affiche lorsqu'une page web n'a pas été trouvée ?",
+      "réponse": [
+        "404",
+        "erreur 404"
+      ]
+    },
+
+    {
+      "question": "Qui est le créateur du langage HTML ?",
+      "réponse": [
+        "Tim Berner-Lee",
+        "Berner-Lee",
+        "Tim Berner Lee"
+      ]
+    },
+
+    {
+      "question": "Quel est le principal CMS utilisé pour la création de site web ?",
+      "réponse": [
+        "WordPress",
+        "word press"
+      ]
+    },
+
+    {
+      "question": "Quel langage informatique permet de styliser une page web ?",
+      "réponse": [
+        "CSS",
+        "css"
+      ]
+    },
+
+    {
+      "question": "Quel plateforme collborative permet d'héberger des sites web ?",
+      "réponse": [
+        "GitHub",
+        "github"
+      ]
+    },
+
+    {
+      "question": "Quel outil d'Adobe Illustrator permet de créer une transformer un élément en 3D ?",
+      "réponse": [
+        "Extrusion et biseau",
+        "Extrusion", 
+        "Biseau",
+        "Extrusion biseau",
+        "Extrude",
+        "Extrude and Bevel", 
+        "Bevel"
+      ]
+    },
+
+    {
+      "question": "Les deux mode de colorimétrie d'un document sont CMJN et... ?",
+      "réponse": [
+        "RVB",
+        "RGB"
+      ]
+    },
+
+    {
+      "question": "Quand est sortie la première version d'Adobe Illustrator ?",
+      "réponse": [
+        "1987",
+        "en 1987"
+      ]
+    },
+
+    {
+      "question": "Que signifie l'accronyme SEO ?",
+      "réponse": [
+        "Search Engine Optimization",
+        "Optimisation pour les moteurs de recherche"
+      ]
+    },
+
+    {
+      "question": "Quel est le nom du premier filtre algorithmique SEO ?",
+      "réponse": [
+        "Caffeine",
+        "caffeine"
+      ]
+    },
+
+    {
+      "question": "Quel est le nom de la méthode de référencement payante d'un site web ?",
+      "réponse": [
+        "SEA",
+        "Le SEA",
+        "Search Engine Advertising"
+      ]
+    },
+
+    {
+      "question": "En programmation, qu'est-ce qui permet de ranger de nombreuses données structurées ? ",
+      "réponse": [
+        "Une base de données",
+        "base de données",
+        "base de donnée",
+        "BDD"
+      ]
+    },
+
+    {
+      "question": "Quelle fonction permet d'afficher une chaine de caractère dans la console d'un site ?",
+      "réponse": [
+        "console.log()",
+        "console.log"
+      ]
+    },
+
+    {
+      "question": "Quel système d'exploitation open source de type Unix a un pingouin comme logo ?",
+      "réponse": [
+        "Linux",
+        "GNU",
+        "GNU Linux",
+        "GNULinux",
+        "GNU/Linux"
+      ]
+    },
+
+    {
+      "question": "Quel est le nom de l'extension d'un format de fichier provenant d'Adobe Illustrator ?",
+      "réponse": [
+        ".ai",
+        "ai"
+      ]
+    },
+
+    {
+      "question": "Comment s'appelle le designer qui a rélisé un poster en rebus pour IBM ?",
+      "réponse": [
+        "Paul Rand",
+        "Rand",
+        "Rand Paul"
+      ]
+    },
+
+    {
+      "question": "Quelle est le nom de la police d'écriture créee par le suisse Max Miedinger en 1957 ?",
+      "réponse": [
+        "Helvetica",
+        "helvetica"
+      ]
+    },
+
+    {
+      "question": "Quel logiciel de la suite Adobe est à privilégier pour ajouter des effets visuels à une vidéo ?",
+      "réponse": [
+        "After Effects",
+        "Adobe After Effects",
+        "after effect"
+      ]
+    },
+
+    {
+      "question": "Quel est le format vidéo le plus courant ?",
+      "réponse": [
+        "mp4",
+        "le format mp4",
+        "MPEG-4 Part 14"
+      ]
+    },
+
+    {
+      "question": "Quel raccourci clavier d'Adobe Illustrator permet de dupliquer un élément ?",
+      "réponse": [
+        "ctrl d",
+        "controle d"
+      ]
+    },
+
+    {
+      "question": "Quel est le nombre d'images par secondes conseillé en cinéma ?",
+      "réponse": [
+        "25",
+        "25 fps",
+        "25 images par seconde"
+      ]
+    },
+
+    {
+      "question": "Pendant un tournage de film, comment s'appelle la personne en charge de capter le son ?",
+      "réponse": [
+        "Perchman",
+        "Le perchman", 
+        "Boom Operator"
+      ]
+    },
+
+    {
+      "question": "Lors d'une prise de vue, quelle technique de déplacement de caméra permet de suivre un objet ?",
+      "réponse": [
+        "Le Travelling",
+        "Travelling",
+        "Tracking Shot"
+      ]
+    },
+
+    {
+      "question": "Quel objet permet d'atténuer le tremblement d'une prise de vue à la main ?",
+      "réponse": [
+        "Le stabilisateur",
+        "Stabilisateur"
+      ]
+    },
+
+    {
+      "question": "Quel célèbres imprimeur allemand a crée la typographie Gothic en 1440 ?",
+      "réponse": [
+        "Johannes Gutenberg",
+        "Gutenberg",
+        "Gutenberg Johannes"
+      ]
+    },
+
+    {
+      "question": "Quel procédé artistique permet de voir deux images en une ?",
+      "réponse": [
+        "L'espace négatif",
+        "espace négatif"
+      ]
+    },
+
+    {
+      "question": "Que signifie l'accronyme HD ?",
+      "réponse": [
+        "Haute Définition",
+        "High Definition"
+      ]
+    },
+
+    {
+      "question": "Quel est le nombre de pixels d'une vidéo en HD ?",
+      "réponse": [
+        "1920 x 1080",
+        "1920x1080",
+        "1080 x 1920",
+        "1080x1920",
+        "1920 1080",
+        "1080 1920"
+      ]
+    },
+
+    {
+      "question": "Quelle unité de mesure est utilisée pour exprimée la température d'un couleur ?",
+      "réponse": [
+        "Kelvin",
+        "K"
+      ]
+    },
+
+    {
+      "question": "Qui sont les inventeurs du cinéma ?",
+      "réponse": [
+        "Les frères Lumière",
+        "Frères Lumière",
+        "Lumière"
+      ]
+    },
+
+    {
+      "question": "Les trois piliers du cinéma sont la télévisio, la radio, et...? ?",
+      "réponse": [
+        "Le cinéma",
+        "cinéma"
+      ]
+    },
+
+    {
+      "question": "Comment appelle t'on une police d'écrite qui ne possède pas d'empatements ?",
+      "réponse": [
+        "Sans-Serif",
+        "sans serif"
+      ]
+    },
+
+    {
+      "question": "Qui a inventé la théorie de la quantification de la communication dans les années 1950 ?",
+      "réponse": [
+        "Claude Shannon",
+        "Shannon",
+        "Shannon Claude"
+      ]
+    },
+
+    {
+      "question": "Quelle métier exerce la personne en charge de l'animation des réseaux sociaux ?",
+      "réponse": [
+        "Community Manager",
+        "un community manager"
+      ]
+    },
+
+    {
+      "question": "Quel est le nom de la méthode utilisée pour dessiner uniquement à partir de triangles ?",
+      "réponse": [
+        "La triangulation",
+        "Triangulation"
+      ]
+    },
+
+    {
+      "question": "Quel logiciel gratuit créee par Ton Roosendaal permet de faire de la modélisation 3D ?",
+      "réponse": [
+        "Blender",
+        "blender"
+      ]
+    },
+
+    {
+      "question": "Quelle fonctionnalité d'Adobe Illustrator permet de créer ou couper des formes en les superposant ?",
+      "réponse": [
+        "Le pathfinder",
+        "pathfinder"
+      ]
+    },
+
+    {
+      "question": "Quel document récapitule les règles fondamentales grpahique d'une entreprise ou d'une marque ?",
+      "réponse": [
+        "La charte graphique",
+        "charte graphique"
+      ]
+    }
+
+
+  ]

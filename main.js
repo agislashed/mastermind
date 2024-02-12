@@ -40,6 +40,23 @@ loader.load('./3D/siege.fbx', function (object) {
   scene.add(object);
 });
 
+let logo;
+//logo MMI
+loader.load('./3D/logo2.fbx', function (object) {
+  logo = object;
+  logo.scale.set(0.005, 0.005, 0.005);
+  //modifie son matériau
+  logo.traverse((child) => {
+    if (child.isMesh) {
+      child.material.color.set(0x292929);
+    }
+  });
+  logo.name="logo";
+  logo.rotation.x = 1.5;
+  logo.position.set(-10, 13, 0);
+  scene.add(logo);
+});
+
 
 camera.position.set(0, 13, 9);
 camera.rotation.x = -0.5;
@@ -47,6 +64,10 @@ camera.rotation.x = -0.5;
 const animate = function () {
   requestAnimationFrame(animate);
 
+  //recupere le logo par son nom
+  if(logo!== undefined) {
+    logo.children[0].rotation.y += 0.005;
+  }
 
   renderer.render(scene, camera);
 }

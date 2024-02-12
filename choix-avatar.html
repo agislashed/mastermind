@@ -4,31 +4,88 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Mastermind MMI</title>
     <link rel="stylesheet" href="/style.css">
     <script type="module" src="/choix.js" defer></script>
+    <script type="module" src="/logo.js" defer></script>
 </head>
 <body>
-    <div class="logo-container">
-        <a href="index.html">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" class="logo">
-                <circle cx="50" cy="50" r="40" fill="#0078d4" />
-            </svg>
-        </a>
+    <canvas id="app"></canvas> 
+    <div class="logo-container ">
+      <a class="logo" href="index.html"></a>
     </div>
     <div class="container">
-        <h1 class="titre">Choisissez votre avatar</h1>
-        <div class="avatar-box">
-            <div class="avatar" data-avatar="1"><img src="/img/cinnaok.png" alt="Avatar 1"></div>
-            <div class="avatar" data-avatar="2"><img src="/img/cinnaok.png" alt="Avatar 2"></div>
-            <div class="avatar" data-avatar="3"><img src="/img/cinnaok.png" alt="Avatar 3"></div>
-        </div>
-        <div class="username-box">
-            <input type="text" placeholder="Entrez votre pseudo">
-        </div>
-        <div class="button-container">
-            <a  href="choix-theme.html" class="button start">C'est parti !</a>
+        <form id="avatarForm">
+            <h1 class="titre">Choisissez votre avatar</h1>
+            <div class="avatar-box">
+                <div class="avatar" data-avatar="1"><img src="/img/mmi_mastermind_1.png" alt="Avatar 1"></div>
+                <div class="avatar" data-avatar="2"><img src="/img/mmi_mastermind_2.png" alt="Avatar 2"></div>
+                <div class="avatar" data-avatar="3"><img src="/img/mmi_mastermind_3.png" alt="Avatar 3"></div>
+                <div class="avatar" data-avatar="3"><img src="/img/mmi_mastermind_4.png" alt="Avatar 4"></div>
+                
+            </div>
+            <div class="username-box">
+                <input type="text" placeholder="Entrez votre pseudo" id="pseudoInput" required>
+            </div>
+            <div class="button-container">
+               <button type="button" class="button start" id="savePseudo" >C'est parti !</button>
+            </div>
+        </form>
+    </div>
+
+     <!-- Modal -->
+     <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="regles">
+                
+                
+                <h1>Comment jouer ?</h1>
+                Bienvenue dans le <b>Mastermind MMI</b>, inspiré du très célèbre jeu télévisé anglophone "Mastermind". <br> 
+                Vous avez <b>60 secondes</b> , et pas une de plus, pour répondre au maximum de questions possibles ! <br>
+                Choisissez un avatar, un thème, et affrontez le chronomètre ! <br>
+                La plupart des questions ne demandent <b>qu’un ou deux mots de réponses</b> , soyez efficace ! <br>
+                Plus vous répondez correctement, plus votre score augmente : marquez plus de points que les autres participants ! <br> Vous pourrez voir votre <b>classement</b>  dans le tableau des scores. <br>
+               <b>BONUS ! </b>  Les questions en <b>anglais</b>  vous rapportent <b>2 points</b>  si vous y répondez juste !
+
+                3, 2, 1… C’est parti !
+ 
+            </div>
+            <button class="close-btn" onclick="closeModal()">C'est compris !</button>
         </div>
     </div>
+
+    <script>
+        // Function to display the modal
+        function openModal() {
+            document.getElementById('myModal').style.display = 'flex';
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+
+        // Event listener for the button that triggers the modal
+        document.getElementById('savePseudo').addEventListener('click', openModal);
+            
+        // Function to display the modal
+        function openModal() {
+            document.getElementById('myModal').style.display = 'flex';
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+
+        // Event listener for the button that triggers the modal
+        document.getElementById('savePseudo').addEventListener('click', openModal);
+
+        // Call openModal when the page loads
+        window.onload = openModal;
+    </script>
+
+
+
 </body>
 </html>

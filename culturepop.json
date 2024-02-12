@@ -1,0 +1,427 @@
+[    
+
+    {
+      "question": "Dans quel film de James Cameron peut-on retrouver des hommes bleus ?",
+      "réponse": [
+        "Avatar",
+        "Dans Avatar"
+      ]
+    },
+
+    {
+      "question": "Dans quel film d'Alfred Hitchcock retrouve t-on la scène de la douche ?",
+      "réponse": [
+        "Psychose",
+        "Dans psychose"
+      ]
+    },
+
+    {
+        "question": "Quel jeu a été crée par Nintendo en 1996 ?",
+        "réponse": [
+          "Pokemon",
+          "Pocket Monster"
+        ]
+    },
+
+    {
+        "question": "Quel est le non du jeu en ligne développé par Epic Games dans lequel 100 joueurs doivent s'affronter et être le dernier survivant ?",
+        "réponse": [
+          "Fortnite",
+          "fornite"
+        ]
+    },
+
+    {
+        "question": "Quel est le nom du fruit du démon de Monkey.D Luffy ?",
+        "réponse": [
+          "Gomu gomu no mi",
+          "fruit élastique", 
+          "gomu gomu"
+        ]
+    },
+
+    {
+        "question": "Quel est le nom du premier opening de l'anime One Piece ?",
+        "réponse": [
+          "We are !",
+          "we are"
+        ]
+    },
+
+    {
+        "question": "Quel est le nom du manga dans lequel le protagoniste est à la recherche de boules permettant d'exaucer les voeux ?",
+        "réponse": [
+          "Dragon Ball",
+          "dragon ball"
+        ]
+    },
+
+    {
+        "question": "Quel est le nom du livre, dans un manga du même nom, permettant de tuer la personne dont le nom y est écrit ?",
+        "réponse": [
+          "Death Note",
+          "Le death note"
+        ]
+    },
+
+    {
+        "question": "Comment s'appelle le meilleur ami de Naruto ?",
+        "réponse": [
+          "Sasuke",
+          "Sasuke Uchiha"
+        ]
+    },
+
+    {
+        "question": "Dans quel manga suit-on deux frères, l'un ayant perdu son corps, et l'autre un bras et une jambe ?",
+        "réponse": [
+          "Fullmetal Alchemist",
+          "Fullmetal Alchemist Brotherhood", 
+          "FMA",
+          "FMAB"
+        ]
+    },
+
+    {
+        "question": "Comment s'appelle l'auteur du manga One Piece ?",
+        "réponse": [
+          "Eichiro Oda",
+          "oda"
+        ]
+    },
+
+    {
+        "question": "Comment s'appelle la compagnie ayant racheté Minecraft en 2014 ?",
+        "réponse": [
+          "Microsoft",
+          "microsoft"
+        ]
+    },
+
+    {
+        "question": "Quel block de Minecraft est utilisé en temps que logo du jeu ?",
+        "réponse": [
+          "herbe",
+          "le bloc herbe", 
+          "bloc herbe",
+          "l'herbe",
+          "grass",
+          "grass block"
+        ]
+    },
+
+    {
+        "question": "A quel jeu Nintendo peut-on jouer avec ses amis pour collecter des étoiles grâce à une série de mini-jeux ?",
+        "réponse": [
+          "Super Mario Partie",
+          "Super Mario Party"
+        ]
+    },
+
+    {
+        "question": "Dans Mario Kart, quel objet peut-on lancer au premier de la course ?",
+        "réponse": [
+          "carapace bleue",
+          "la carapace bleue",
+          "une carapace bleue"
+        ]
+    },
+
+    {
+        "question": "Comment s'appelle le frère de Mario ?",
+        "réponse": [
+          "Luigi",
+          "luigi"
+        ]
+    },
+
+    {
+        "question": "Quel est le nom de l'entreprise française de jeux vidéo, créee par les cinq frères Guillemot ?",
+        "réponse": [
+          "Ubisoft",
+          "ubisoft"
+        ]
+    },
+
+    {
+        "question": "Dans la casa de Papel, quel nom prends Raquel Murillo après avoir rejoins les cambrioleurs ?",
+        "réponse": [
+          "Lisbonne",
+          "lisbonne"
+        ]
+    },
+
+    {
+        "question": "Qui interprète la chanson thème du film Titanic ?",
+        "réponse": [
+          "Céline Dion",
+          "Dion"
+        ]
+    },
+
+    {
+        "question": "En quelle année est sorti le film d'animation Blanche Neige et les 7 nains ?",
+        "réponse": [
+          "1937",
+          "En 1937"
+        ]
+    },
+
+    {
+        "question": "Qui a composé la musique du Roi Lion ?",
+        "réponse": [
+          "Hans Zimmer",
+          "Zimmer"
+        ]
+    },
+
+    {
+        "question": "Dans One Piece, pour quel personnage Shanks a t-il sacrifié son bras ?",
+        "réponse": [
+          "Luffy",
+          "Pour Luffy"
+        ]
+    },
+
+    {
+        "question": "Quel jeu a été crée par Nintendo en 1996 ?",
+        "réponse": [
+          "Pokemon",
+          "Pocket Monster"
+        ]
+    },
+
+    {
+        "question": "Quel est le nom du célèbre groupe de musique électronique français dont les deux membres portent toujours un casque ?",
+        "réponse": [
+          "Daft Punk",
+          "daft punk"
+        ]
+      },
+
+      {
+        "question": "Quel série de livres et de films mets en scène une arène dans laquelle 24 personnes doivent s'entretuer pour survivre ?",
+        "réponse": [
+          "Hunger Games",
+          "Les jeux de la faim mais qui dit ça"
+        ]
+      },
+
+      {
+        "question": "Qui chante la chanson Lift me up ?",
+        "réponse": [
+          "Rihanna",
+          "rihanna"
+        ]
+      },
+
+      {
+        "question": "Quel est l'album de musique le plus vendu de tous les temps ?",
+        "réponse": [
+          "Thriller",
+          "thriller"
+        ]
+      },
+
+      {
+        "question": "Quel est le nom du célèbre groupe de musique suédois fondé en 1970 par deux hommes et deux femmes ?",
+        "réponse": [
+          "ABBA",
+          "abba"
+        ]
+      },
+
+      {
+        "question": "Quel est le nom d'artiste du rappeur Elie Yaffa ?",
+        "réponse": [
+          "Booba",
+          "booba"
+        ]
+      },
+
+      {
+        "question": "Qui est le chat connu de bande dessiné, qui adore manger et dormir ?",
+        "réponse": [
+          "Garfield",
+          "garfield"
+        ]
+      },
+
+      {
+        "question": "Qui est le chat noir et blanc de dessin animé qui pourchasse toujours un petit canard jaune ?",
+        "réponse": [
+          "Grominet",
+          "grominet"
+        ]
+      },
+      
+      {
+        "question": "Dans quel série de livres et films retrouve t-on le personnage de Paul Atreides ?",
+        "réponse": [
+          "Dune",
+          "dune"
+        ]
+      },
+
+      {
+        "question": "Qui est le chat noir et blanc de dessin animé qui pourchasse toujours un petit canard jaune ?",
+        "réponse": [
+          "Grominet",
+          "grominet"
+        ]
+      },
+
+      {
+        "question": "Qui a remporté le Grammy Award de l'Album de l'année en 2023 ?",
+        "réponse": [
+          "Harry Styles",
+          "harry styles"
+        ]
+      },
+
+      {
+        "question": "Qui a remporté l'oscar du meilleur acteur pour son rôle dans The Whale ?",
+        "réponse": [
+          "Brendan Fraser",
+          "Fraser"
+        ]
+      },
+
+      {
+        "question": "Qui a réalisé le film coréen Parasite en 2019 ?",
+        "réponse": [
+          "Bong Joon-ho",
+          "Bong Joon ho",
+          "Joon-ho"
+        ]
+      },
+
+      {
+        "question": "Quel personnage incarne Robert Downey Jr. dans l'univers Marvel ? ?",
+        "réponse": [
+          "Tony Stark",
+          "Iron Man"
+        ]
+      },
+
+      {
+        "question": "Quelle série télévisée populaire mets en scène un groupe de geek ?",
+        "réponse": [
+          "The Big Bang Theory",
+          "big bang theory"
+        ]
+      },
+
+      {
+        "question": "Qui a réalisé la triologie du Seigneur des Anneaux ?",
+        "réponse": [
+          "Peter Jackson",
+          "Jackson"
+        ]
+      },
+
+      {
+        "question": "Quel groupe de Rock Britannique a réalisé l'album The Dark Side of the Moon ?",
+        "réponse": [
+          "Pink Floyd",
+          "pink floyd"
+        ]
+      },
+
+      {
+        "question": "Qui est l'autrice des livres ayant inspirée la série The Handmaid's Tale ?",
+        "réponse": [
+          "Margaret Atwood",
+          "Atwood"
+        ]
+      },
+
+      {
+        "question": "Quel film mets en scène un rat qui aspire à devenir un grand chef cuisinier à Paris ?",
+        "réponse": [
+          "Ratatouille",
+          "ratatouille"
+        ]
+      },
+
+      {
+        "question": "Quel est le nom de l'entreprise qui développe et publie le jeu mobile et PC Genshin Impact ?",
+        "réponse": [
+          "Hoyoverse",
+          "Mihoyo"
+        ]
+      },
+
+      {
+        "question": "Quelle série animée pour adultes suit les aventures de Stan, Kyle, Cartman et Kenny ?",
+        "réponse": [
+          "South Park",
+          "south park"
+        ]
+      },
+
+      {
+        "question": "Dans quelle franchise de jeu vidéo retrouve t-on le personnage de Nathan Drake ?",
+        "réponse": [
+          "Uncharted",
+          "uncharted"
+        ]
+      },
+
+      {
+        "question": "Quel film a réalisé Steven Spielberg en 1993, basé sur un roman de Michael Crichton ?",
+        "réponse": [
+          "Jurassic Park",
+          "Le parc jurassique"
+        ]
+      },
+
+      {
+        "question": "Quel acteur a joué le rôle de Wolverine dans la franchise de films X-Men",
+        "réponse": [
+          "Hugh Jackman",
+          "Jackman"
+        ]
+      },
+
+      {
+        "question": "Quel personnage est la mascotte du studio Ghibli ?",
+        "réponse": [
+          "Totoro",
+          "Mon voisin totoro"
+        ]
+      },
+
+      {
+        "question": "Dans quel comédie musicale de Damien Chzelle retrouve t-on la chanson City of Stars ?",
+        "réponse": [
+          "La La Land",
+          "lala land"
+        ]
+      },
+
+      {
+        "question": "Qui est le personnage principal du film d'animation Spider-Man : Across the Spider-Verse ?",
+        "réponse": [
+          "Miles Morales",
+          "miles",
+          "Morales"
+        ]
+      },
+
+      {
+        "question": "Quel est le dernier jeu sorti de la licence Zelda ?",
+        "réponse": [
+          "Tears of the Kingdom",
+          "TOTK",
+          "The Legend of Zelda : Tears of the kingdom"
+        ]
+      }
+
+
+      
+
+
+
+]
