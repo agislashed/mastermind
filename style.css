@@ -306,6 +306,7 @@ th{
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .avatar {

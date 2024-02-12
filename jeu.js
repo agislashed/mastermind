@@ -158,7 +158,7 @@ fetch('cultureg.json')
           validateText.innerHTML = "Mauvaise réponse ! C'était "+ question.réponse[0];
           setTimeout(function () {
             validateText.style.display = "none";
-          }, 1500);
+          }, 5000);
           currentQuestionIndex++; // Passez à la prochaine question
           afficherQuestion();
         }

@@ -138,7 +138,8 @@ h1 {
   justify-content: center; /* Centre horizontalement */
   align-items: center; /* Centre verticalement */
   height: 90%; /* Pour occuper toute la hauteur de la question-box */
-
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .answer-input {
