@@ -10,16 +10,16 @@ function closeModal() {
 
 closeModal();
 // Chargez le fichier JSON des questions
-fetch('cultureg.json')
+fetch('/json/culturepop.json')
   .then(response => response.json())
   .then(dataRecup => {
     let countdown = document.querySelector(".countdown").innerHTML;
     let avatar = document.querySelector("#avatar-choisi");
     let currentPlayer = localStorage.getItem("currentPlayer");
-    // decode mon json
+    // decode mon jsonnpm
     let avatarChoisi = JSON.parse(currentPlayer).avatar;
     console.log(avatarChoisi);
-    avatar.src = "./public/img/mmi_mastermind_"+avatarChoisi+".png";
+    avatar.src = "../img/mmi_mastermind_"+avatarChoisi+".png";
     let timer = setInterval(function () {
       countdown--;
       document.querySelector(".countdown").innerHTML = countdown;

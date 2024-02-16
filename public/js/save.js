@@ -2,7 +2,13 @@ let saveButton = document.getElementById('saveScore');
 let returnMenuButton = document.getElementById('returnMenu');
 let leaderbordButton = document.getElementById('goToLeaderboard');
 //recupère la lenght de la liste de score
-let nombreScore = localStorage.getItem('listeScore').length;
+let nombreScore = localStorage.getItem('listeScore');
+if (nombreScore === null) {
+  nombreScore = 0
+}
+else{
+  nombreScore = localStorage.getItem('listeScore').length;
+}
 
 saveButton.addEventListener('click', function() {
   let currentScore = document.querySelector(".score-circle").innerHTML;
@@ -26,14 +32,14 @@ returnMenuButton.addEventListener('click', function() {
   if(nombreScore === localStorage.getItem('listeScore').length){
     if (confirm("Voulez-vous vraiment quitter la partie sans sauvegarder ?")) {
       localStorage.removeItem('currentPlayer');
-      window.location.href = "index.html";
+      window.location.href = "../index.html";
     }
     else{
       return;
     }
   }
 
-  window.location.href = "index.html";
+  window.location.href = "../index.html";
 });
 
 leaderbordButton.addEventListener('click', function() {

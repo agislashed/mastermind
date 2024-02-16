@@ -53,7 +53,7 @@ loader.load('./3D/logo2.fbx', function (object) {
   });
   logo.name="logo";
   logo.rotation.x = 1.5;
-  logo.position.set(-10, 13, 0);
+  logo.position.set(-10, 13.5, 0);
   scene.add(logo);
 });
 

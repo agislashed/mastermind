@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'mastermind';
-  src: url('./fonts/Coluna.otf');
+  src: url('$fonts/Coluna.otf');
 }
 
  /* Page index */
@@ -32,7 +32,7 @@ a:hover {
 }
 
 body {
-  background-image: url('./background/fond_mastermind.png');
+  background-image: url('$background/fond_mastermind.png');
   background-size: cover; /* Optionnel : ajuste la taille de l'image pour remplir tout l'écran */
   background-repeat: no-repeat; /* Optionnel : empêche la répétition de l'image */
   margin: 0;
@@ -53,6 +53,10 @@ h1 {
   height: 100%;
   position: fixed;
   z-index: 0;
+}
+
+.hidden-logo {
+  visibility: hidden;
 }
 
 /* Mon code css */
@@ -109,14 +113,7 @@ h1 {
   cursor: pointer;
 }
 
-.logo {
-  transition: transform 0.3s; /* Animation de rotation */
-}
 
-/* Lorsque le logo est cliqué, effectuez la rotation de 360 degrés */
-.logo.clicked {
-  transform: rotate(360deg);
-}
 
 .logo {
   height: 6em;
@@ -271,7 +268,7 @@ th{
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: #3770a2;;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -296,7 +293,7 @@ th{
 
 
 .regles {
-  color: #000;
+  color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
 }
@@ -429,5 +426,20 @@ input[type="text"] {
   background-color: #000;
 }
 
+.fond {
+  background-color: #3770a2;
+  border-radius: 10px;
+  padding: 20px;
+  color: white; /* Couleur du texte */
+  font-size: 1.3em;
+}
 
-
+.retour-index {
+  font-size: 36px; /* Taille de l'icône */
+  color: white; /* Couleur de l'icône */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+  position: fixed; /* Position fixée */
+  top: 20px; /* Espacement supérieur */
+  left: 20px; /* Espacement gauche */
+  z-index: 9999; /* Assurer que l'icône soit au-dessus des autres éléments */
+}

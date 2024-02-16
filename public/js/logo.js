@@ -37,7 +37,7 @@ const loader = new FBXLoader();
 
 let logo;
 //logo MMI
-loader.load('./3D/logo2.fbx', function (object) {
+loader.load('/3D/logo2.fbx', function (object) {
   logo = object;
   logo.scale.set(0.005, 0.005, 0.005);
   //modifie son matériau
@@ -46,9 +46,11 @@ loader.load('./3D/logo2.fbx', function (object) {
       child.material.color.set(0x292929);
     }
   });
+  //change the anchor point to the middle of the object
+
   logo.name="logo";
   logo.rotation.x = 1.5;
-  logo.position.set(-10, 13, 0);
+  logo.position.set(-10, 13.5, 0);
   scene.add(logo);
 });
 
@@ -61,7 +63,7 @@ const animate = function () {
 
   //recupere le logo par son nom
   if(logo!== undefined) {
-    logo.children[0].rotation.y += 0.005;
+    logo.children[0].rotateY(0.005);
   }
 
   renderer.render(scene, camera);

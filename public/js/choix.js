@@ -22,7 +22,7 @@ savePseudo.addEventListener("click", function(){
     profil.name = pseudo;
     profil.avatar = photoAvatar;
     localStorage.setItem("currentPlayer", JSON.stringify(profil));
-    window.location.href = "choix-theme.html";
+    window.location.href = "/html/choix-theme.html";
 });
 
 

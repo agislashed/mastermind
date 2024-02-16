@@ -1,0 +1,37 @@
+[
+    {
+      "question": "Quelle est la capitale ?",
+      "réponse": "paris"
+    },
+    {
+      "question": "Quel est le plus grand océan du monde ?",
+      "réponse": "pacifique"
+    },
+    {
+      "question": "Combien de planètes y a-t-il dans le système solaire ?",
+      "réponse": "8"
+    },
+    {
+      "question": "Qui a peint la Joconde ?",
+      "réponse": [
+        "Leonard de Vinci",
+        "vinci"
+      ]
+    },
+    {
+      "question": "Comment clothilde sappelle ?",
+      "réponse": [
+        "clothilde",
+        "9",
+        "genshin"
+      ]
+    },
+    {
+      "question": "Comment sappelle la capitale de la france?",
+      "réponse": [
+        "Paris",
+        "paris"
+      ]
+    }
+  ]
+  

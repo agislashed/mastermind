@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mastermind MMI</title>
+    <link rel="stylesheet" href="/css/interface.css">
+    <script src="/js/jeu-mmi.js" defer></script>
+    <script src="/js/save.js" defer></script>
+
+
+</head>
+<body>
+    <div class="countdown">3</div>
+    <div class="game-interface">
+        <div class="question-box">
+            <div class="timer">60</div>
+            <div class="question question-centered">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, explicabo dolor aut earum doloremque beatae sequi quos voluptatum dicta hic iusto ullam itaque officia sapiente laudantium sint magni ea. Quibusdam!</div>
+            <div class="validate-text"></div>
+            <div class="answer-container">
+                <input type="text" class="answer-input" placeholder="Entrez votre réponse et appuyez sur Entrée">
+            </div>
+        </div>
+        <div class="score-box">
+            <div class="avatar-int">
+                <img id="avatar-choisi" src="/img/cinnaok.png" alt="Avatar">
+                <div class="avatar-circle"></div>
+            </div>
+            <div class="score">
+                <div class="score-circle"></div>
+            </div>
+            <div class="presentateur">
+                <img class="img-pres" src="../img/presentateur.png" alt="Présentateur">
+                <div class="presentateur-circle"></div>
+        </div>
+    </div>
+
+    <div class="audio-container">
+        <figure>
+          <audio id="audio" controls autoplay loop>
+            <source src="../musique/millionaire.mp3" type="audio/mpeg">
+          </audio>
+        </figure>
+      </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="fin">
+                
+                
+                <h1>Fin du jeu !</h1>
+                Si vous souhaitez enregistrer votre score, n'oubliez pas de l'enregistrer avant de quitter la page !
+            </div>
+            <button class="close-btn" id="returnMenu">Retourner au menu</button>
+            <button class="close-btn" id="saveScore">Enregistrer son score et voir le leaderboard</button>
+            <button class="close-btn" id="goToLeaderboard">Voir le leaderboard</button>
+        </div>
+
+    <!-- <a class="logo" href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" class="logo">
+            <circle cx="50" cy="50" r="40" fill="#0078d4" />
+        </svg>
+      </a> -->
+</div>
+</body>
+</html>

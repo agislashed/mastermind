@@ -9,7 +9,7 @@
     },
 
     {
-      "question": "Dans quel film d'Alfred Hitchcock retrouve t-on la scène de la douche ?",
+      "question": "Dans quel film d'Alfred Hitchcock retrouve t-on la célèbre scène de la douche ?",
       "réponse": [
         "Psychose",
         "Dans psychose"
@@ -17,7 +17,7 @@
     },
 
     {
-        "question": "Quel jeu a été crée par Nintendo en 1996 ?",
+        "question": "Quel jeu a été crée par Nintendo en 1996, puis adapté en anime en 1997 ?",
         "réponse": [
           "Pokemon",
           "Pocket Monster"
@@ -25,7 +25,7 @@
     },
 
     {
-        "question": "Quel est le non du jeu en ligne développé par Epic Games dans lequel 100 joueurs doivent s'affronter et être le dernier survivant ?",
+        "question": "Quel est le nom du jeu en ligne développé par Epic Games, dans lequel 100 joueurs doivent s'affronter pour être le dernier survivant ?",
         "réponse": [
           "Fortnite",
           "fornite"
@@ -42,15 +42,7 @@
     },
 
     {
-        "question": "Quel est le nom du premier opening de l'anime One Piece ?",
-        "réponse": [
-          "We are !",
-          "we are"
-        ]
-    },
-
-    {
-        "question": "Quel est le nom du manga dans lequel le protagoniste est à la recherche de boules permettant d'exaucer les voeux ?",
+        "question": "Quel est le nom du manga dans lequel le protagoniste est à la recherche de boules de cristal permettant d'exaucer les voeux ?",
         "réponse": [
           "Dragon Ball",
           "dragon ball"
@@ -58,7 +50,7 @@
     },
 
     {
-        "question": "Quel est le nom du livre, dans un manga du même nom, permettant de tuer la personne dont le nom y est écrit ?",
+        "question": "Grâce à quel livre, dans un manga du même nom, peut-on tuer la personne dont le nom y est écrit à l'intérieur ?",
         "réponse": [
           "Death Note",
           "Le death note"
@@ -129,15 +121,7 @@
     },
 
     {
-        "question": "Comment s'appelle le frère de Mario ?",
-        "réponse": [
-          "Luigi",
-          "luigi"
-        ]
-    },
-
-    {
-        "question": "Quel est le nom de l'entreprise française de jeux vidéo, créee par les cinq frères Guillemot ?",
+        "question": "Quel est le nom de l'entreprise française de jeux vidéo créee par les cinq frères Guillemot ?",
         "réponse": [
           "Ubisoft",
           "ubisoft"
@@ -145,7 +129,7 @@
     },
 
     {
-        "question": "Dans la casa de Papel, quel nom prends Raquel Murillo après avoir rejoins les cambrioleurs ?",
+        "question": "Dans la casa de Papel, quel nom prends Raquel Murillo après avoir rejoint les cambrioleurs ?",
         "réponse": [
           "Lisbonne",
           "lisbonne"
@@ -185,14 +169,6 @@
     },
 
     {
-        "question": "Quel jeu a été crée par Nintendo en 1996 ?",
-        "réponse": [
-          "Pokemon",
-          "Pocket Monster"
-        ]
-    },
-
-    {
         "question": "Quel est le nom du célèbre groupe de musique électronique français dont les deux membres portent toujours un casque ?",
         "réponse": [
           "Daft Punk",
@@ -201,18 +177,10 @@
       },
 
       {
-        "question": "Quel série de livres et de films mets en scène une arène dans laquelle 24 personnes doivent s'entretuer pour survivre ?",
+        "question": "Quel série de livres et de films met en scène une arène dans laquelle 24 enfants doivent s'entretuer pour survivre ?",
         "réponse": [
           "Hunger Games",
           "Les jeux de la faim mais qui dit ça"
-        ]
-      },
-
-      {
-        "question": "Qui chante la chanson Lift me up ?",
-        "réponse": [
-          "Rihanna",
-          "rihanna"
         ]
       },
 
@@ -241,7 +209,7 @@
       },
 
       {
-        "question": "Qui est le chat connu de bande dessiné, qui adore manger et dormir ?",
+        "question": "Comment s'appelle le célèbre chat roux de bande dessiné qui adore manger et dormir ?",
         "réponse": [
           "Garfield",
           "garfield"
@@ -249,7 +217,7 @@
       },
 
       {
-        "question": "Qui est le chat noir et blanc de dessin animé qui pourchasse toujours un petit canard jaune ?",
+        "question": "Comment s'appelle le chat noir et blanc de dessin animé qui pourchasse toujours un petit canard jaune ?",
         "réponse": [
           "Grominet",
           "grominet"
@@ -265,14 +233,6 @@
       },
 
       {
-        "question": "Qui est le chat noir et blanc de dessin animé qui pourchasse toujours un petit canard jaune ?",
-        "réponse": [
-          "Grominet",
-          "grominet"
-        ]
-      },
-
-      {
         "question": "Qui a remporté le Grammy Award de l'Album de l'année en 2023 ?",
         "réponse": [
           "Harry Styles",
@@ -281,7 +241,7 @@
       },
 
       {
-        "question": "Qui a remporté l'oscar du meilleur acteur pour son rôle dans The Whale ?",
+        "question": "Qui a remporté l'oscar du meilleur acteur pour son rôle dans le film « The Whale ? »",
         "réponse": [
           "Brendan Fraser",
           "Fraser"
@@ -289,7 +249,7 @@
       },
 
       {
-        "question": "Qui a réalisé le film coréen Parasite en 2019 ?",
+        "question": "Qui a réalisé le film coréen « Parasite » en 2019 ?",
         "réponse": [
           "Bong Joon-ho",
           "Bong Joon ho",
@@ -306,7 +266,7 @@
       },
 
       {
-        "question": "Quelle série télévisée populaire mets en scène un groupe de geek ?",
+        "question": "Quelle série télévisée populaire met en scène un groupe de geek ?",
         "réponse": [
           "The Big Bang Theory",
           "big bang theory"
@@ -322,7 +282,7 @@
       },
 
       {
-        "question": "Quel groupe de Rock Britannique a réalisé l'album The Dark Side of the Moon ?",
+        "question": "Quel groupe de Rock Britannique a réalisé l'album « The Dark Side of the Moon » ?",
         "réponse": [
           "Pink Floyd",
           "pink floyd"
@@ -330,7 +290,7 @@
       },
 
       {
-        "question": "Qui est l'autrice des livres ayant inspirée la série The Handmaid's Tale ?",
+        "question": "Qui est l'autrice des livres ayant inspirée la série « The Handmaid's Tale » ?",
         "réponse": [
           "Margaret Atwood",
           "Atwood"
@@ -338,7 +298,7 @@
       },
 
       {
-        "question": "Quel film mets en scène un rat qui aspire à devenir un grand chef cuisinier à Paris ?",
+        "question": "Quel film met en scène un rat qui aspire à devenir un grand chef cuisinier à Paris ?",
         "réponse": [
           "Ratatouille",
           "ratatouille"
@@ -346,18 +306,10 @@
       },
 
       {
-        "question": "Quel est le nom de l'entreprise qui développe et publie le jeu mobile et PC Genshin Impact ?",
+        "question": "Quel est le nom de l'entreprise qui développe et publie le jeu mobile et PC « Genshin Impact » ?",
         "réponse": [
           "Hoyoverse",
           "Mihoyo"
-        ]
-      },
-
-      {
-        "question": "Quelle série animée pour adultes suit les aventures de Stan, Kyle, Cartman et Kenny ?",
-        "réponse": [
-          "South Park",
-          "south park"
         ]
       },
 
@@ -378,14 +330,6 @@
       },
 
       {
-        "question": "Quel acteur a joué le rôle de Wolverine dans la franchise de films X-Men",
-        "réponse": [
-          "Hugh Jackman",
-          "Jackman"
-        ]
-      },
-
-      {
         "question": "Quel personnage est la mascotte du studio Ghibli ?",
         "réponse": [
           "Totoro",
@@ -394,7 +338,7 @@
       },
 
       {
-        "question": "Dans quel comédie musicale de Damien Chzelle retrouve t-on la chanson City of Stars ?",
+        "question": "Dans quel comédie musicale de Damien Chzelle retrouve t-on la chanson « City of Stars » ?",
         "réponse": [
           "La La Land",
           "lala land"
@@ -402,26 +346,67 @@
       },
 
       {
-        "question": "Qui est le personnage principal du film d'animation Spider-Man : Across the Spider-Verse ?",
+        "question": "Quel est le dernier jeu sorti de la licence Zelda ?",
         "réponse": [
-          "Miles Morales",
-          "miles",
-          "Morales"
+          "Tears of the Kingdom",
+          "TOTK"
         ]
       },
 
       {
-        "question": "Quel est le dernier jeu sorti de la licence Zelda ?",
+        "question": "What is the name of the first One Piece's opening ?",
         "réponse": [
-          "Tears of the Kingdom",
-          "TOTK",
-          "The Legend of Zelda : Tears of the kingdom"
-        ]
-      }
+          "We are !",
+          "we are"
+        ],
+        "bonus":"2"
+    },
 
-
+      {
+        "question": "Who is the main character of the movie « Spider-Man : Across the Spider-Verse ? »",
+        "réponse": [
+          "Miles Morales",
+          "miles",
+          "Morales"
+        ],
+        "bonus":"2"
       
+      },
 
+      {
+        "question": "What is Mario's brother's name ?",
+        "réponse": [
+          "Luigi",
+          "luigi"
+        ],
+        "bonus":"2"
+    },
 
+    {
+      "question": "Who song « Lift me up » ?",
+      "réponse": [
+        "Rihanna",
+        "rihanna"
+      ],
+      "bonus":"2"
+    },
+
+    {
+      "question": "Which actor plays Wolverine in X-Men films ?",
+      "réponse": [
+        "Hugh Jackman",
+        "Jackman"
+      ],
+      "bonus":"2"
+    },
+
+    {
+      "question": "In which cartoon series can we follow the adventures of Stan, Kyle, Cartman et Kenny ?",
+      "réponse": [
+        "South Park",
+        "south park"
+      ],
+      "bonus":"2"
+    }
 
 ]
