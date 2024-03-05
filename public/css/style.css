@@ -28,7 +28,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #1577dc;
+  color: #ffffff;
 }
 
 body {
@@ -294,7 +294,6 @@ th{
 
 .regles {
   color: white;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
 }
 
@@ -442,4 +441,8 @@ input[type="text"] {
   top: 20px; /* Espacement supérieur */
   left: 20px; /* Espacement gauche */
   z-index: 9999; /* Assurer que l'icône soit au-dessus des autres éléments */
+}
+
+.hover:hover { 
+ background-color: #007BFF;
 }
