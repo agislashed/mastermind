@@ -30,7 +30,7 @@ const AmbientLight = new THREE.AmbientLight(0xffffff, 1);
 scene.add(AmbientLight);
 
 
-//fais FBXloader
+// FBXloader
 
 const loader = new FBXLoader();
 loader.load('./3D/siege.fbx', function (object) {

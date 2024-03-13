@@ -35,8 +35,8 @@ fetch('/json/cultureg.json')
   });
 
   function startgame(data) {
-    //fais moi un tirage aleatoire de data.length nombres 
-    //et stocke les dans un tableau
+    // tirage aleatoire de data.length nombres 
+ 
     let tirage = [];
     let i = 0;  
     while (i < data.length) {

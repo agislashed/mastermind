@@ -35,8 +35,7 @@ fetch('/json/mmi.json')
   });
 
   function startgame(data) {
-    //fais moi un tirage aleatoire de data.length nombres 
-    //et stocke les dans un tableau
+ 
     let tirage = [];
     let i = 0;  
     while (i < data.length) {
