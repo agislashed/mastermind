@@ -446,3 +446,34 @@ input[type="text"] {
 .hover:hover { 
  background-color: #007BFF;
 }
+
+/* A propos */
+
+.a_propos-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.a_propos {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  margin: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.a_propos:hover {
+  border-color: #030B3A;
+  box-shadow: 0 0 10px #030B3A;
+}
+
+.a_propos-box img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
